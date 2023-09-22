@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/search_view_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F2F2F2" /> <!-- Set the background color of the search view -->
+    <corners android:radius="16dp" /> <!-- Adjust corner radius as per your design -->
+</shape>

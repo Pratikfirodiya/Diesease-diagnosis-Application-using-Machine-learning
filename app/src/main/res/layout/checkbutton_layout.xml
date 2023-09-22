@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_button.xml -->
+
+<com.google.android.material.button.MaterialButton android:id="@+id/buttonItem"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="Button with Border"
+    android:textColor="@color/black"
+    android:layout_margin="5dp"
+    app:strokeWidth="1dp"
+    android:paddingStart="16dp"
+    android:backgroundTint="@color/white"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:textAllCaps="false"
+    app:icon="@drawable/button_border"
+    app:iconGravity="textStart"
+    app:iconPadding="4dp"
+    app:cornerRadius="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+
+
+
+
+
+

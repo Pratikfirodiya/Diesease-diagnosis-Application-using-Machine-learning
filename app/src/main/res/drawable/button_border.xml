@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> <!-- Set the button background color here -->
+            <stroke
+                android:width="10dp"
+                android:color="#FF0000"/> <!-- Border color here (red color used as an example) -->
+
+            <corners android:radius="8dp" /> <!-- Button corner radius in dp -->
+        </shape>
+    </item>
+    <!-- Content (text, icon, etc.) of the button -->
+    <item android:drawablePadding="8dp"> <!-- Adjust padding as per your requirement -->
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/design_default_color_secondary" /> <!-- Background color of the button when pressed -->
+                    <corners android:radius="8dp" /> <!-- Button corner radius in dp -->
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/white" /> <!-- Default background color of the button -->
+                    <corners android:radius="10dp" /> <!-- Button corner radius in dp -->
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>
